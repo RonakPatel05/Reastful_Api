@@ -5,7 +5,8 @@ const studentSchema =new mongoose.Schema({
     name:String,
     email:String,
     phone:Number,
-    gender:String
+    gender:String,
+    rollno:Number
 })
 
 

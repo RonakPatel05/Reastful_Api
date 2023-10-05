@@ -8,12 +8,11 @@ const bodyParser=require('body-parser');
 
 
 mongoose.connect('mongodb+srv://Ronak_Patel:icegolastring1573@cluster0.ae4ldxe.mongodb.net/')
-
+    
 
 mongoose.connection.on('error',err=>{
     console.log("connection failed");
 });
-
 
 mongoose.connection.on('connected',connected=>{
     console.log("connected with database.....");
